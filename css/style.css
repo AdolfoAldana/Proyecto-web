@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+font-family: 'Fjalla One', sans-serif;
+  overflow-x: hidden;
+}
+.navbar{
+
+  background-color: #5F7161;
+}
+#Inicio{
+    background-color: #6D8B74;
+}
+.T1{
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+.IMG1{
+    color: white;
+    height: 40em;
+    background-image: url("/img/F2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.IMG2{
+    color: white;
+    height: 40em;
+    background-image: url("https://w.wallhaven.cc/full/od/wallhaven-odj16m.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.IMG3{
+    color: white;
+    height: 40em;
+    background-image: url("/img/4.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#5F7161;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+.Login{
+  width:300px;
+  background-color:white;
+  padding: 15px;
+  border-radius: 10px;
+}
+#Inicio2{
+
+    background-color: #6D8B74;
+}
+.Contra{
+  width: 600px;
+  background-color:white;
+  padding: 15px;
+  border-radius: 10px;
+}
+.Regis{
+  width: 600px;
+  background-color:white;
+  padding: 15px;
+  border-radius: 10px;
+}
+.in2{
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
